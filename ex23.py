@@ -1,9 +1,6 @@
 import sys
 script, encoding, error = sys.argv
-"""
-Just a comment to trigger a modified file in git
-Another change
-"""
+
 
 def main(language_file, encoding, errors):
     line = language_file.readline()
